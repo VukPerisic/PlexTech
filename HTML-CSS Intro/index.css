@@ -1,5 +1,6 @@
 body {
   margin: 20px 40px;
+  
 }
 
 p {
@@ -45,4 +46,70 @@ p {
   background-color: blue;
 }
 
+#favicon {
+  width: 50px;
+  height:auto;
+}
+
+#navbar {
+  width: 400px;
+  height: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(219, 237, 244);
+  
+}
+
+.navlink {
+  text-decoration: none;
+  color: darkblue;
+}
+
+.navlink:hover {
+  text-decoration: underline;
+}
+
+.image_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 400px;
+  background-color: lightcyan;
+  gap: 10px;
+}
+
+#footer {
+  width: 100%;
+  background-color: lightgray;
+  text-align: center;
+  bottom: 0;
+}
+
+#main_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: lightgoldenrodyellow;
+  
+}
+
+.plexlogo {
+  max-width: 50%;
+  height: auto; 
+  margin-left: auto;
+  margin-right: auto;  
+  
+}
+
+.bluebar {
+  width: 100%;
+  background-color: lightcyan;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
 /* TODO: Add CSS for the rest of your solution below */
