@@ -46,6 +46,80 @@ p {
   background-color: blue;
 }
 
+.little_red {
+  width: 80px;
+  background-color: red;
+}
+
+.little_blue { 
+  width: 80px;
+  background-color: blue;
+}
+
+.big_transparent { 
+  display: flex;
+  flex: 1;
+}
+
+.big_red {
+  display: flex;
+  flex: 1;
+  background-color: red;
+}
+
+.little_red_square {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blueRectangle {
+  width: 80px;
+  background-color: blue;
+}
+
+.stripContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.blueStrip {
+  height: 20px;
+  background-color: blue;
+}
+
+.transparentStrip {
+  height: 20px;
+  background-color: transparent;
+}
+
+.orangeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.stableOrangeRectangle {
+  width: 120px;
+  background-color: orange;
+}
+
+.unstableOrangeRectangle {
+  flex: 1;
+  background-color: orange;
+}
+
+.transparentRectangle {
+  width: 40px;
+  background-color: transparent;
+}
+
 #favicon {
   width: 50px;
   height:auto;
